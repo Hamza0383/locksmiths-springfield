@@ -1,0 +1,53 @@
+# Robots.txt for Locksmith Springfield
+# https://locksmiths-springfield.com
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://locksmiths-springfield.com/sitemap.xml
+
+# Crawl-delay for polite crawling (optional)
+Crawl-delay: 1
+
+# Disallow access to admin/backend areas (if any)
+Disallow: /cgi-bin/
+Disallow: /admin/
+Disallow: /private/
+
+# Allow all CSS, JS, and images for proper rendering
+Allow: /css/
+Allow: /js/
+Allow: /images/
+
+# Common files to disallow
+Disallow: /*.php$
+Disallow: /*.inc$
+Disallow: /*.sql$
+Disallow: /*.log$
+
+# Allow search engines to index all HTML pages
+Allow: /*.html$
+Allow: /*.htm$
+
+# Specific directives for major search engines
+
+# Google
+User-agent: Googlebot
+Allow: /
+
+# Bing
+User-agent: Bingbot
+Allow: /
+
+# Yahoo
+User-agent: Slurp
+Allow: /
+
+# Baidu (Chinese search engine)
+User-agent: Baiduspider
+Allow: /
+
+# Yandex (Russian search engine)
+User-agent: Yandex
+Allow: /
