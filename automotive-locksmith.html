@@ -21,452 +21,71 @@
       href="https://locksmiths-springfield.com/automotive-locksmith.html/"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <!-- Add this to the <head> section of every page -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@graph": [
+        "@type": "Locksmith",
+        "name": "Locksmith Springfield",
+        "image": "https://locksmiths-springfield.com/images/logo.webp",
+        "@id": "https://locksmiths-springfield.com",
+        "url": "https://locksmiths-springfield.com",
+        "telephone": "+1-413-224-9549",
+        "priceRange": "$$",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "",
+          "addressLocality": "Springfield",
+          "addressRegion": "MA",
+          "postalCode": "01103",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 42.1015,
+          "longitude": -72.5898
+        },
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "00:00",
+          "closes": "23:59"
+        },
+        "sameAs": [
+          "https://www.facebook.com/yourpage",
+          "https://www.yelp.com/yourpage"
+        ],
+        "areaServed": [
           {
-            "@type": "Service",
-            "@id": "https://locksmiths-springfield.com/automotive-locksmith#service",
-            "serviceType": "Automotive Locksmith Service",
-            "name": "Automotive Locksmith Springfield MA",
-            "description": "Professional 24/7 automotive locksmith service in Springfield MA. Car lockouts, key replacement, transponder programming, key fob replacement, and ignition repair for all vehicle makes and models.",
-            "url": "https://locksmiths-springfield.com/automotive-locksmith",
-            "provider": {
-              "@type": "Locksmith",
-              "@id": "https://locksmiths-springfield.com/#locksmith",
-              "name": "Locksmith Springfield",
-              "telephone": "+1-413-224-9549",
-              "email": "info@locksmiths-springfield.com",
-              "url": "https://locksmiths-springfield.com",
-              "logo": {
-                "@type": "ImageObject",
-                "url": "https://locksmiths-springfield.com/images/logo.webp",
-                "width": 150,
-                "height": 150
-              },
-              "image": "https://locksmiths-springfield.com/images/locksmith-springfield-24-7-emergency.webp",
-              "address": {
-                "@type": "PostalAddress",
-                "addressLocality": "Springfield",
-                "addressRegion": "MA",
-                "postalCode": "01101",
-                "addressCountry": "US"
-              },
-              "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": "42.1015",
-                "longitude": "-72.5898"
-              },
-              "priceRange": "$$",
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "4.9",
-                "reviewCount": "500",
-                "bestRating": "5",
-                "worstRating": "1"
-              }
-            },
-            "areaServed": [
-              {
-                "@type": "City",
-                "name": "Springfield",
-                "containsPlace": {
-                  "@type": "State",
-                  "name": "Massachusetts"
-                }
-              },
-              {
-                "@type": "City",
-                "name": "Agawam",
-                "containsPlace": {
-                  "@type": "State",
-                  "name": "Massachusetts"
-                }
-              },
-              {
-                "@type": "City",
-                "name": "Longmeadow",
-                "containsPlace": {
-                  "@type": "State",
-                  "name": "Massachusetts"
-                }
-              },
-              {
-                "@type": "City",
-                "name": "Westfield",
-                "containsPlace": {
-                  "@type": "State",
-                  "name": "Massachusetts"
-                }
-              },
-              {
-                "@type": "City",
-                "name": "Feeding Hills",
-                "containsPlace": {
-                  "@type": "State",
-                  "name": "Massachusetts"
-                }
-              },
-              {
-                "@type": "City",
-                "name": "West Springfield",
-                "containsPlace": {
-                  "@type": "State",
-                  "name": "Massachusetts"
-                }
-              },
-              {
-                "@type": "City",
-                "name": "Chicopee",
-                "containsPlace": {
-                  "@type": "State",
-                  "name": "Massachusetts"
-                }
-              }
-            ],
-            "offers": {
-              "@type": "AggregateOffer",
-              "priceCurrency": "USD",
-              "lowPrice": "75.00",
-              "highPrice": "350.00",
-              "offerCount": "7",
-              "offers": [
-                {
-                  "@type": "Offer",
-                  "name": "Car Lockout Service",
-                  "description": "Emergency car lockout service with non-destructive entry techniques for all vehicle makes and models",
-                  "price": "85.00",
-                  "priceCurrency": "USD",
-                  "availability": "https://schema.org/InStock",
-                  "url": "https://locksmiths-springfield.com/automotive-locksmith#car-lockout"
-                },
-                {
-                  "@type": "Offer",
-                  "name": "Car Key Replacement",
-                  "description": "On-site car key cutting and programming for lost or broken vehicle keys",
-                  "priceSpecification": {
-                    "@type": "PriceSpecification",
-                    "minPrice": "100.00",
-                    "maxPrice": "300.00",
-                    "priceCurrency": "USD"
-                  },
-                  "availability": "https://schema.org/InStock",
-                  "url": "https://locksmiths-springfield.com/automotive-locksmith#key-replacement"
-                },
-                {
-                  "@type": "Offer",
-                  "name": "Transponder Key Programming",
-                  "description": "Professional transponder key programming for all vehicle makes from 1995 to current models",
-                  "priceSpecification": {
-                    "@type": "PriceSpecification",
-                    "minPrice": "120.00",
-                    "maxPrice": "250.00",
-                    "priceCurrency": "USD"
-                  },
-                  "availability": "https://schema.org/InStock",
-                  "url": "https://locksmiths-springfield.com/automotive-locksmith#transponder-programming"
-                },
-                {
-                  "@type": "Offer",
-                  "name": "Key Fob Replacement",
-                  "description": "Key fob replacement and programming with remote start, keyless entry, and all features",
-                  "priceSpecification": {
-                    "@type": "PriceSpecification",
-                    "minPrice": "80.00",
-                    "maxPrice": "200.00",
-                    "priceCurrency": "USD"
-                  },
-                  "availability": "https://schema.org/InStock",
-                  "url": "https://locksmiths-springfield.com/automotive-locksmith#key-fob"
-                },
-                {
-                  "@type": "Offer",
-                  "name": "Ignition Repair",
-                  "description": "Complete ignition cylinder repair and replacement for all vehicle types",
-                  "priceSpecification": {
-                    "@type": "PriceSpecification",
-                    "minPrice": "150.00",
-                    "maxPrice": "350.00",
-                    "priceCurrency": "USD"
-                  },
-                  "availability": "https://schema.org/InStock",
-                  "url": "https://locksmiths-springfield.com/automotive-locksmith#ignition-repair"
-                },
-                {
-                  "@type": "Offer",
-                  "name": "Broken Key Extraction",
-                  "description": "Safe extraction of broken keys from ignitions and door locks without damage",
-                  "price": "75.00",
-                  "priceCurrency": "USD",
-                  "availability": "https://schema.org/InStock",
-                  "url": "https://locksmiths-springfield.com/automotive-locksmith#key-extraction"
-                },
-                {
-                  "@type": "Offer",
-                  "name": "Smart Key Programming",
-                  "description": "Advanced smart key and proximity key programming for luxury and modern vehicles",
-                  "priceSpecification": {
-                    "@type": "PriceSpecification",
-                    "minPrice": "150.00",
-                    "maxPrice": "350.00",
-                    "priceCurrency": "USD"
-                  },
-                  "availability": "https://schema.org/InStock",
-                  "url": "https://locksmiths-springfield.com/automotive-locksmith#smart-key"
-                }
-              ]
-            },
-            "serviceOutput": [
-              "Car Lockout Service",
-              "Car Key Replacement",
-              "Transponder Key Programming",
-              "Key Fob Replacement",
-              "Ignition Repair",
-              "Broken Key Extraction",
-              "Smart Key Programming",
-              "Automotive Lock Repair",
-              "Trunk Lockout Service",
-              "High-Security Car Keys"
-            ],
-            "category": "Automotive Locksmith",
-            "hasOfferCatalog": {
-              "@type": "OfferCatalog",
-              "name": "Automotive Locksmith Services",
-              "itemListElement": [
-                {
-                  "@type": "OfferCatalog",
-                  "name": "Vehicle Makes Serviced",
-                  "itemListElement": [
-                    {
-                      "@type": "Service",
-                      "name": "BMW Locksmith Service",
-                      "description": "Specialized locksmith service for BMW vehicles including key programming and coding"
-                    },
-                    {
-                      "@type": "Service",
-                      "name": "Mercedes-Benz Locksmith Service",
-                      "description": "Expert Mercedes-Benz key replacement and programming"
-                    },
-                    {
-                      "@type": "Service",
-                      "name": "Audi Locksmith Service",
-                      "description": "Professional Audi key cutting and transponder programming"
-                    },
-                    {
-                      "@type": "Service",
-                      "name": "Lexus Locksmith Service",
-                      "description": "Complete Lexus smart key and remote programming"
-                    },
-                    {
-                      "@type": "Service",
-                      "name": "Toyota Locksmith Service",
-                      "description": "Toyota key replacement and transponder programming"
-                    },
-                    {
-                      "@type": "Service",
-                      "name": "Honda Locksmith Service",
-                      "description": "Honda key cutting and immobilizer programming"
-                    },
-                    {
-                      "@type": "Service",
-                      "name": "Ford Locksmith Service",
-                      "description": "Ford key replacement and PATS programming"
-                    },
-                    {
-                      "@type": "Service",
-                      "name": "Chevrolet Locksmith Service",
-                      "description": "Chevrolet key programming and replacement"
-                    },
-                    {
-                      "@type": "Service",
-                      "name": "All Vehicle Makes",
-                      "description": "We service all vehicle makes and models domestic and import"
-                    }
-                  ]
-                }
-              ]
-            },
-            "availableChannel": {
-              "@type": "ServiceChannel",
-              "serviceUrl": "https://locksmiths-springfield.com/automotive-locksmith",
-              "servicePhone": {
-                "@type": "ContactPoint",
-                "telephone": "+1-413-224-9549",
-                "contactType": "Automotive Locksmith Service",
-                "availableLanguage": "English",
-                "hoursAvailable": {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": [
-                    "Monday",
-                    "Tuesday",
-                    "Wednesday",
-                    "Thursday",
-                    "Friday",
-                    "Saturday",
-                    "Sunday"
-                  ],
-                  "opens": "00:00",
-                  "closes": "23:59"
-                }
-              }
-            },
-            "hoursAvailable": {
-              "@type": "OpeningHoursSpecification",
-              "dayOfWeek": [
-                "Monday",
-                "Tuesday",
-                "Wednesday",
-                "Thursday",
-                "Friday",
-                "Saturday",
-                "Sunday"
-              ],
-              "opens": "00:00",
-              "closes": "23:59"
-            }
+            "@type": "City",
+            "name": "Springfield"
           },
           {
-            "@type": "WebPage",
-            "@id": "https://locksmiths-springfield.com/automotive-locksmith#webpage",
-            "url": "https://locksmiths-springfield.com/automotive-locksmith",
-            "name": "Automotive Locksmith Springfield MA | 24/7 Car Locksmith Near Me",
-            "description": "Professional automotive locksmith in Springfield MA. 24/7 car lockouts, key replacement, transponder programming for all makes and models. Fast mobile service.",
-            "isPartOf": {
-              "@id": "https://locksmiths-springfield.com/#website"
-            },
-            "about": {
-              "@id": "https://locksmiths-springfield.com/automotive-locksmith#service"
-            },
-            "primaryImageOfPage": {
-              "@type": "ImageObject",
-              "url": "https://locksmiths-springfield.com/images/locksmith-springfield-24-7-emergency.webp"
-            },
-            "breadcrumb": {
-              "@id": "https://locksmiths-springfield.com/automotive-locksmith#breadcrumb"
-            }
+            "@type": "City",
+            "name": "Agawam"
           },
           {
-            "@type": "BreadcrumbList",
-            "@id": "https://locksmiths-springfield.com/automotive-locksmith#breadcrumb",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://locksmiths-springfield.com"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Automotive Locksmith",
-                "item": "https://locksmiths-springfield.com/automotive-locksmith"
-              }
-            ]
+            "@type": "City",
+            "name": "Longmeadow"
           },
           {
-            "@type": "FAQPage",
-            "@id": "https://locksmiths-springfield.com/automotive-locksmith#faq",
-            "mainEntity": [
-              {
-                "@type": "Question",
-                "name": "How much does car key replacement cost?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Car key replacement costs vary depending on your vehicle make, model, and key type. Basic car keys typically cost $100-150, transponder keys range from $120-250, and smart keys or proximity keys cost $150-350. We provide upfront pricing before beginning work and can often save you 30-50% compared to dealership prices."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "How long does transponder key programming take?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Most transponder key programming takes 15-30 minutes on-site. Our mobile units carry advanced diagnostic equipment enabling us to cut and program keys at your location. Complex luxury vehicle keys may take 30-45 minutes. We complete the entire process during a single service visit."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Can you make a car key without the original?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Yes, we can create car keys without the original using your vehicle's VIN and our advanced key cutting equipment. For vehicles with transponder chips or smart keys, we use manufacturer-level diagnostic tools to program new keys to your car's computer system. No original key needed."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Do you provide emergency car lockout service 24/7?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Yes, we provide 24/7 emergency car lockout service throughout Springfield MA and surrounding areas. We respond within 15-30 minutes using specialized non-destructive entry tools designed for modern vehicles. Our technicians gain entry without damaging your car's door seals, windows, or electronic systems."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "What vehicle makes and models do you service?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "We service all vehicle makes and models including domestic and import brands: BMW, Mercedes-Benz, Audi, Lexus, Toyota, Honda, Ford, Chevrolet, Nissan, Hyundai, Kia, Volkswagen, Mazda, Subaru, Jeep, Dodge, RAM, GMC, Cadillac, Acura, Infiniti, and all others. We have expertise with luxury vehicles, modern smart key systems, and classic cars."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Can you program key fobs and remote starters?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Yes, we program all types of key fobs including keyless entry remotes and remote start systems. We ensure all features work correctly including remote start, panic buttons, trunk release, and power sliding doors. Programming is completed on-site at your location with full testing of all functions."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "How much does ignition repair cost?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Ignition repair costs range from $150-350 depending on the issue and vehicle type. Simple ignition cylinder repairs are on the lower end while complete ignition switch replacement is higher. We diagnose the problem first and provide exact pricing before starting repairs. Most ignition work is completed same-day."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Do you come to my location for automotive locksmith service?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Yes, we are a fully mobile automotive locksmith service. We come directly to your location anywhere in Springfield, Agawam, Longmeadow, Westfield, West Springfield, Chicopee, or Feeding Hills. Our service vehicles are equipped with all necessary tools, key cutting machines, and programming equipment to complete service on-site."
-                }
-              }
-            ]
-          },
-          {
-            "@type": "HowTo",
-            "@id": "https://locksmiths-springfield.com/automotive-locksmith#howto-car-lockout",
-            "name": "What to Do When Locked Out of Your Car",
-            "description": "Step-by-step guide for handling a car lockout situation",
-            "step": [
-              {
-                "@type": "HowToStep",
-                "position": 1,
-                "name": "Stay Calm and Assess",
-                "text": "Check all doors and trunk to confirm vehicle is locked. Look for spare keys."
-              },
-              {
-                "@type": "HowToStep",
-                "position": 2,
-                "name": "Call Professional Locksmith",
-                "text": "Contact Locksmith Springfield at 555-000-0000 for emergency car lockout service. We respond within 15-30 minutes."
-              },
-              {
-                "@type": "HowToStep",
-                "position": 3,
-                "name": "Wait Safely",
-                "text": "If in unsafe location, move to well-lit public area. Stay near vehicle so locksmith can locate you easily."
-              },
-              {
-                "@type": "HowToStep",
-                "position": 4,
-                "name": "Verify Locksmith Identity",
-                "text": "When locksmith arrives, verify company identification and vehicle markings match Locksmith Springfield."
-              }
-            ]
+            "@type": "City",
+            "name": "Westfield"
           }
-        ]
+        ],
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "5",
+          "reviewCount": "3"
+        }
       }
     </script>
   </head>
@@ -476,7 +95,7 @@
       <nav class="navbar">
         <div class="logo">
           <a href="/"
-            ><img src="/images/logo.webp" alt="Locksmith Springfield Logo"
+            ><img src="/images/logo.webp" alt="Locksmith Springfield MA - 24/7 Emergency Lock Services"
           /></a>
         </div>
         <ul class="nav-menu">
@@ -1089,6 +708,34 @@
             clock with the mobile capability, expertise, and equipment to solve
             any car lock and key challenge.
           </p>
+        </div>
+      </section>
+
+      <section
+        style="
+          background: #f5f5f5;
+          padding: 30px;
+          margin: 40px 0;
+          border-radius: 8px;
+        "
+      >
+        <div class="container">
+          <h2>Related Services You Might Need</h2>
+          <ul style="list-style: none; padding: 0">
+            <li style="margin: 10px 0">
+              🏠
+              <a href="residential-locksmith.html">Residential Locksmith</a> -
+              Secure your home with the same expertise we bring to your vehicle
+            </li>
+            <li style="margin: 10px 0">
+              🚨 <a href="emergency-locksmith.html">24/7 Emergency Service</a> -
+              Locked out of your car? We're available right now
+            </li>
+            <li style="margin: 10px 0">
+              🏢 <a href="commercial-locksmith.html">Commercial Locksmith</a> -
+              Fleet vehicle keys and business vehicle security
+            </li>
+          </ul>
         </div>
       </section>
     </main>

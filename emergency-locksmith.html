@@ -21,505 +21,71 @@
       href="https://locksmiths-springfield.com/emergency-locksmith.html/"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <!-- Add this to the <head> section of every page -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@graph": [
+        "@type": "Locksmith",
+        "name": "Locksmith Springfield",
+        "image": "https://locksmiths-springfield.com/images/logo.webp",
+        "@id": "https://locksmiths-springfield.com",
+        "url": "https://locksmiths-springfield.com",
+        "telephone": "+1-413-224-9549",
+        "priceRange": "$$",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "",
+          "addressLocality": "Springfield",
+          "addressRegion": "MA",
+          "postalCode": "01103",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 42.1015,
+          "longitude": -72.5898
+        },
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "00:00",
+          "closes": "23:59"
+        },
+        "sameAs": [
+          "https://www.facebook.com/yourpage",
+          "https://www.yelp.com/yourpage"
+        ],
+        "areaServed": [
           {
-            "@type": "Service",
-            "@id": "https://locksmiths-springfield.com/emergency-locksmith#service",
-            "serviceType": "Emergency Locksmith Service",
-            "name": "24/7 Emergency Locksmith Springfield MA",
-            "description": "24/7 emergency locksmith service in Springfield MA. Immediate response for home lockouts, car lockouts, commercial lockouts, broken locks, lost keys, and urgent security situations. Fast 15-30 minute response time available day or night.",
-            "url": "https://locksmiths-springfield.com/emergency-locksmith",
-            "provider": {
-              "@type": "Locksmith",
-              "@id": "https://locksmiths-springfield.com/#locksmith",
-              "name": "Locksmith Springfield",
-              "telephone": "+1-413-224-9549",
-              "email": "info@locksmiths-springfield.com",
-              "url": "https://locksmiths-springfield.com",
-              "logo": {
-                "@type": "ImageObject",
-                "url": "https://locksmiths-springfield.com/images/logo.webp",
-                "width": 150,
-                "height": 150
-              },
-              "image": "https://locksmiths-springfield.com/images/locksmith-springfield-24-7-emergency.webp",
-              "address": {
-                "@type": "PostalAddress",
-                "addressLocality": "Springfield",
-                "addressRegion": "MA",
-                "postalCode": "01101",
-                "addressCountry": "US"
-              },
-              "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": "42.1015",
-                "longitude": "-72.5898"
-              },
-              "priceRange": "$$",
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "4.9",
-                "reviewCount": "500",
-                "bestRating": "5",
-                "worstRating": "1"
-              }
-            },
-            "areaServed": [
-              {
-                "@type": "City",
-                "name": "Springfield",
-                "containsPlace": {
-                  "@type": "State",
-                  "name": "Massachusetts"
-                }
-              },
-              {
-                "@type": "City",
-                "name": "Agawam",
-                "containsPlace": {
-                  "@type": "State",
-                  "name": "Massachusetts"
-                }
-              },
-              {
-                "@type": "City",
-                "name": "Longmeadow",
-                "containsPlace": {
-                  "@type": "State",
-                  "name": "Massachusetts"
-                }
-              },
-              {
-                "@type": "City",
-                "name": "Westfield",
-                "containsPlace": {
-                  "@type": "State",
-                  "name": "Massachusetts"
-                }
-              },
-              {
-                "@type": "City",
-                "name": "Feeding Hills",
-                "containsPlace": {
-                  "@type": "State",
-                  "name": "Massachusetts"
-                }
-              },
-              {
-                "@type": "City",
-                "name": "West Springfield",
-                "containsPlace": {
-                  "@type": "State",
-                  "name": "Massachusetts"
-                }
-              },
-              {
-                "@type": "City",
-                "name": "Chicopee",
-                "containsPlace": {
-                  "@type": "State",
-                  "name": "Massachusetts"
-                }
-              }
-            ],
-            "offers": {
-              "@type": "AggregateOffer",
-              "priceCurrency": "USD",
-              "lowPrice": "75.00",
-              "highPrice": "300.00",
-              "offerCount": "9",
-              "offers": [
-                {
-                  "@type": "Offer",
-                  "name": "Emergency Home Lockout Service",
-                  "description": "24/7 emergency home lockout service with non-destructive entry and immediate response",
-                  "price": "95.00",
-                  "priceCurrency": "USD",
-                  "availability": "https://schema.org/InStock",
-                  "availabilityStarts": "2024-01-01T00:00:00",
-                  "availabilityEnds": "2025-12-31T23:59:59",
-                  "url": "https://locksmiths-springfield.com/emergency-locksmith#home-lockout"
-                },
-                {
-                  "@type": "Offer",
-                  "name": "Emergency Car Lockout Service",
-                  "description": "24/7 emergency automotive lockout service for all vehicle makes and models",
-                  "price": "95.00",
-                  "priceCurrency": "USD",
-                  "availability": "https://schema.org/InStock",
-                  "availabilityStarts": "2024-01-01T00:00:00",
-                  "availabilityEnds": "2025-12-31T23:59:59",
-                  "url": "https://locksmiths-springfield.com/emergency-locksmith#car-lockout"
-                },
-                {
-                  "@type": "Offer",
-                  "name": "Emergency Commercial Lockout",
-                  "description": "24/7 emergency business lockout service to minimize operational downtime",
-                  "price": "125.00",
-                  "priceCurrency": "USD",
-                  "availability": "https://schema.org/InStock",
-                  "availabilityStarts": "2024-01-01T00:00:00",
-                  "availabilityEnds": "2025-12-31T23:59:59",
-                  "url": "https://locksmiths-springfield.com/emergency-locksmith#commercial-lockout"
-                },
-                {
-                  "@type": "Offer",
-                  "name": "Emergency Key Replacement",
-                  "description": "Emergency lost key replacement for homes, cars, and businesses with on-site key cutting",
-                  "priceSpecification": {
-                    "@type": "PriceSpecification",
-                    "minPrice": "75.00",
-                    "maxPrice": "250.00",
-                    "priceCurrency": "USD"
-                  },
-                  "availability": "https://schema.org/InStock",
-                  "availabilityStarts": "2024-01-01T00:00:00",
-                  "availabilityEnds": "2025-12-31T23:59:59",
-                  "url": "https://locksmiths-springfield.com/emergency-locksmith#key-replacement"
-                },
-                {
-                  "@type": "Offer",
-                  "name": "Emergency Broken Key Extraction",
-                  "description": "Emergency service for keys broken in locks with safe extraction and replacement",
-                  "price": "85.00",
-                  "priceCurrency": "USD",
-                  "availability": "https://schema.org/InStock",
-                  "availabilityStarts": "2024-01-01T00:00:00",
-                  "availabilityEnds": "2025-12-31T23:59:59",
-                  "url": "https://locksmiths-springfield.com/emergency-locksmith#key-extraction"
-                },
-                {
-                  "@type": "Offer",
-                  "name": "Emergency Lock Repair",
-                  "description": "24/7 emergency lock repair for broken, jammed, or malfunctioning locks",
-                  "priceSpecification": {
-                    "@type": "PriceSpecification",
-                    "minPrice": "100.00",
-                    "maxPrice": "250.00",
-                    "priceCurrency": "USD"
-                  },
-                  "availability": "https://schema.org/InStock",
-                  "availabilityStarts": "2024-01-01T00:00:00",
-                  "availabilityEnds": "2025-12-31T23:59:59",
-                  "url": "https://locksmiths-springfield.com/emergency-locksmith#lock-repair"
-                },
-                {
-                  "@type": "Offer",
-                  "name": "After-Hours Emergency Service",
-                  "description": "After-hours emergency locksmith service available nights, weekends, and holidays",
-                  "priceSpecification": {
-                    "@type": "PriceSpecification",
-                    "minPrice": "95.00",
-                    "maxPrice": "300.00",
-                    "priceCurrency": "USD"
-                  },
-                  "availability": "https://schema.org/InStock",
-                  "availabilityStarts": "2024-01-01T00:00:00",
-                  "availabilityEnds": "2025-12-31T23:59:59",
-                  "url": "https://locksmiths-springfield.com/emergency-locksmith#after-hours"
-                },
-                {
-                  "@type": "Offer",
-                  "name": "Emergency Lock Change",
-                  "description": "Emergency lock change service for security breaches or lost keys requiring immediate replacement",
-                  "priceSpecification": {
-                    "@type": "PriceSpecification",
-                    "minPrice": "120.00",
-                    "maxPrice": "250.00",
-                    "priceCurrency": "USD"
-                  },
-                  "availability": "https://schema.org/InStock",
-                  "availabilityStarts": "2024-01-01T00:00:00",
-                  "availabilityEnds": "2025-12-31T23:59:59",
-                  "url": "https://locksmiths-springfield.com/emergency-locksmith#lock-change"
-                },
-                {
-                  "@type": "Offer",
-                  "name": "Emergency Security Response",
-                  "description": "Emergency response for security breaches, break-in attempts, or urgent security situations",
-                  "priceSpecification": {
-                    "@type": "PriceSpecification",
-                    "minPrice": "150.00",
-                    "maxPrice": "300.00",
-                    "priceCurrency": "USD"
-                  },
-                  "availability": "https://schema.org/InStock",
-                  "availabilityStarts": "2024-01-01T00:00:00",
-                  "availabilityEnds": "2025-12-31T23:59:59",
-                  "url": "https://locksmiths-springfield.com/emergency-locksmith#security-response"
-                }
-              ]
-            },
-            "serviceOutput": [
-              "Emergency Home Lockout Service",
-              "Emergency Car Lockout Service",
-              "Emergency Commercial Lockout Service",
-              "Emergency Key Replacement",
-              "Broken Key Extraction",
-              "Emergency Lock Repair",
-              "Emergency Lock Change",
-              "After-Hours Service",
-              "Holiday Emergency Service",
-              "Weekend Emergency Service",
-              "Emergency Security Response",
-              "Trunk Lockout Service",
-              "Emergency Lock Installation"
-            ],
-            "category": "Emergency Locksmith",
-            "availableChannel": {
-              "@type": "ServiceChannel",
-              "serviceUrl": "https://locksmiths-springfield.com/emergency-locksmith",
-              "servicePhone": {
-                "@type": "ContactPoint",
-                "telephone": "+1-413-224-9549",
-                "contactType": "Emergency Service",
-                "availableLanguage": "English",
-                "hoursAvailable": {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": [
-                    "Monday",
-                    "Tuesday",
-                    "Wednesday",
-                    "Thursday",
-                    "Friday",
-                    "Saturday",
-                    "Sunday"
-                  ],
-                  "opens": "00:00",
-                  "closes": "23:59"
-                },
-                "contactOption": "TollFree"
-              }
-            },
-            "hoursAvailable": [
-              {
-                "@type": "OpeningHoursSpecification",
-                "dayOfWeek": [
-                  "Monday",
-                  "Tuesday",
-                  "Wednesday",
-                  "Thursday",
-                  "Friday",
-                  "Saturday",
-                  "Sunday"
-                ],
-                "opens": "00:00",
-                "closes": "23:59"
-              }
-            ],
-            "additionalType": "http://www.productontology.org/id/Emergency_service"
+            "@type": "City",
+            "name": "Springfield"
           },
           {
-            "@type": "EmergencyService",
-            "@id": "https://locksmiths-springfield.com/emergency-locksmith#emergency-service",
-            "name": "24/7 Emergency Locksmith Springfield MA",
-            "url": "https://locksmiths-springfield.com/emergency-locksmith",
-            "telephone": "+1-413-224-9549",
-            "availableLanguage": "English",
-            "serviceArea": {
-              "@type": "GeoCircle",
-              "geoMidpoint": {
-                "@type": "GeoCoordinates",
-                "latitude": "42.1015",
-                "longitude": "-72.5898"
-              },
-              "geoRadius": "24140"
-            }
+            "@type": "City",
+            "name": "Agawam"
           },
           {
-            "@type": "WebPage",
-            "@id": "https://locksmiths-springfield.com/emergency-locksmith#webpage",
-            "url": "https://locksmiths-springfield.com/emergency-locksmith",
-            "name": "24/7 Emergency Locksmith Springfield MA | Fast Lockout Service Near Me",
-            "description": "24/7 emergency locksmith in Springfield MA. Fast 15-30 min response for home lockouts, car lockouts, commercial lockouts. Available nights, weekends, holidays.",
-            "isPartOf": {
-              "@id": "https://locksmiths-springfield.com/#website"
-            },
-            "about": {
-              "@id": "https://locksmiths-springfield.com/emergency-locksmith#service"
-            },
-            "primaryImageOfPage": {
-              "@type": "ImageObject",
-              "url": "https://locksmiths-springfield.com/images/locksmith-springfield-24-7-emergency.webp"
-            },
-            "breadcrumb": {
-              "@id": "https://locksmiths-springfield.com/emergency-locksmith#breadcrumb"
-            }
+            "@type": "City",
+            "name": "Longmeadow"
           },
           {
-            "@type": "BreadcrumbList",
-            "@id": "https://locksmiths-springfield.com/emergency-locksmith#breadcrumb",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://locksmiths-springfield.com"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Emergency Locksmith",
-                "item": "https://locksmiths-springfield.com/emergency-locksmith"
-              }
-            ]
-          },
-          {
-            "@type": "FAQPage",
-            "@id": "https://locksmiths-springfield.com/emergency-locksmith#faq",
-            "mainEntity": [
-              {
-                "@type": "Question",
-                "name": "How quickly can you respond to emergency locksmith calls?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "We respond to emergency locksmith calls in Springfield MA within 15-30 minutes depending on your exact location and current traffic conditions. Our mobile units are strategically positioned throughout Springfield and surrounding areas to ensure fast emergency response 24/7. When you call, we dispatch the nearest available technician immediately with full equipment to resolve your emergency."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Do you really provide 24/7 emergency locksmith service?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Yes, we provide true 24/7 emergency locksmith service 365 days a year including nights, weekends, and all holidays. When you call our emergency line at 555-000-0000, a real locksmith answers immediately - never an answering service or voicemail. We maintain dedicated emergency coverage specifically to help Springfield residents during urgent lock and security situations at any hour."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "How much does emergency locksmith service cost?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Emergency locksmith service costs vary by situation and time. Home lockouts typically cost $95, car lockouts $95, and commercial lockouts $125. After-hours service (nights, weekends, holidays) includes additional fees reflecting the cost of maintaining 24/7 availability. Complex situations requiring parts or extensive repairs cost more. We provide upfront pricing before beginning work with no hidden fees."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "What types of emergency locksmith situations do you handle?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "We handle all emergency locksmith situations including: home lockouts (keys locked inside, lost keys), car lockouts (locked keys in vehicle, trunk lockouts), commercial lockouts (business access emergencies), broken keys stuck in locks, malfunctioning or jammed locks, lost or stolen keys requiring immediate replacement, security breaches or break-in damage, and any urgent situation requiring immediate locksmith assistance."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Will emergency lockout service damage my locks or doors?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "No, our emergency lockout service uses professional non-destructive entry techniques specifically designed to gain access without damaging locks, doors, or vehicles. Our technicians carry specialized tools for safe entry to homes, businesses, and cars. We avoid the damage that DIY attempts or inexperienced services often cause. In rare cases where locks are already damaged or malfunctioning, we inform you before any work requiring replacement."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Do you charge extra for after-hours emergency service?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Yes, after-hours emergency service (typically nights after 8pm, early mornings before 6am, weekends, and holidays) includes additional fees reflecting the cost of maintaining 24/7 emergency availability. However, our emergency pricing remains competitive and fair. We never exploit urgent situations with excessive charges. All pricing is provided upfront before beginning work so you know exactly what to expect."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Can you make emergency keys on-site?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Yes, our emergency mobile units carry complete key cutting and programming equipment. We create house keys, car keys with transponder programming, and business keys on-site during emergency calls. This eliminates the need for towing vehicles or waiting for key orders. Most emergency key replacement is completed within 30-45 minutes of our arrival at your Springfield location."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "What should I do while waiting for emergency locksmith service?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "While waiting for emergency locksmith service: stay in a safe, well-lit location (your car or nearby public area), keep your phone charged and accessible, don't attempt to force locks or break windows (causes expensive damage), have identification ready to verify property ownership, and our technician will call when approaching your location. For vehicle lockouts, verify all doors and trunk are actually locked before we arrive."
-                }
-              }
-            ]
-          },
-          {
-            "@type": "HowTo",
-            "@id": "https://locksmiths-springfield.com/emergency-locksmith#howto-lockout",
-            "name": "What to Do During an Emergency Lockout",
-            "description": "Step-by-step guide for handling emergency lockout situations safely and efficiently",
-            "step": [
-              {
-                "@type": "HowToStep",
-                "position": 1,
-                "name": "Stay Calm and Assess",
-                "text": "Take a deep breath and assess the situation. Verify you're actually locked out by checking all doors and windows. Look for spare keys or alternative entry methods."
-              },
-              {
-                "@type": "HowToStep",
-                "position": 2,
-                "name": "Move to Safety",
-                "text": "If outdoors in bad weather or unsafe location, move to a safe, well-lit public area. For vehicle lockouts, ensure you're safely off the roadway."
-              },
-              {
-                "@type": "HowToStep",
-                "position": 3,
-                "name": "Call Professional Locksmith",
-                "text": "Call Locksmith Springfield immediately at 555-000-0000. Provide your exact location, type of lockout (home/car/business), and any relevant details. We dispatch immediately."
-              },
-              {
-                "@type": "HowToStep",
-                "position": 4,
-                "name": "Do Not Force Entry",
-                "text": "Never attempt to force locks, break windows, or use makeshift tools. These attempts cause expensive damage and potential injury while rarely succeeding."
-              },
-              {
-                "@type": "HowToStep",
-                "position": 5,
-                "name": "Prepare for Arrival",
-                "text": "Have identification ready to verify property ownership. Keep phone charged for technician contact. Be prepared to describe the lock type if known."
-              },
-              {
-                "@type": "HowToStep",
-                "position": 6,
-                "name": "Verify Locksmith Identity",
-                "text": "When locksmith arrives, verify company identification and vehicle markings match Locksmith Springfield before allowing any work."
-              }
-            ]
-          },
-          {
-            "@type": "HowTo",
-            "@id": "https://locksmiths-springfield.com/emergency-locksmith#howto-prevent",
-            "name": "How to Prevent Emergency Lockouts",
-            "description": "Practical tips for preventing lockout emergencies at your Springfield home or business",
-            "step": [
-              {
-                "@type": "HowToStep",
-                "position": 1,
-                "name": "Create Spare Keys",
-                "text": "Make spare keys and store them with trusted neighbors, family members, or in secure locations. Consider magnetic key boxes for vehicles."
-              },
-              {
-                "@type": "HowToStep",
-                "position": 2,
-                "name": "Establish Key Routines",
-                "text": "Develop consistent routines for key storage and checking. Always verify you have keys before closing doors or leaving home."
-              },
-              {
-                "@type": "HowToStep",
-                "position": 3,
-                "name": "Install Smart Locks",
-                "text": "Consider smart lock installation for keyless entry using smartphones or PIN codes. Eliminates key concerns while providing backup access methods."
-              },
-              {
-                "@type": "HowToStep",
-                "position": 4,
-                "name": "Maintain Locks Properly",
-                "text": "Keep locks well-maintained and functioning properly. Sticky or difficult locks often fail at inconvenient times. Schedule regular lock maintenance."
-              },
-              {
-                "@type": "HowToStep",
-                "position": 5,
-                "name": "Save Emergency Locksmith Number",
-                "text": "Save Locksmith Springfield's number (555-000-0000) in your phone contacts now so it's readily available during emergencies."
-              }
-            ]
+            "@type": "City",
+            "name": "Westfield"
           }
-        ]
+        ],
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "5",
+          "reviewCount": "3"
+        }
       }
     </script>
   </head>
@@ -529,7 +95,9 @@
       <nav class="navbar">
         <div class="logo">
           <a href="/"
-            ><img src="/images/logo.webp" alt="Locksmith Springfield Logo"
+            ><img
+              src="/images/logo.webp"
+              alt="Locksmith Springfield MA - 24/7 Emergency Lock Services"
           /></a>
         </div>
         <ul class="nav-menu">
@@ -655,7 +223,7 @@
             <div class="service-hero-image">
               <!-- Emergency Hero Image Placeholder: Replace with emergency locksmith responding to call -->
               <img
-                src="images/emergency-locksmith-springfield-24-7-banner.webp"
+                src="/images/emergency-locksmith-springfield-24-7-banner.webp"
                 alt="24/7 emergency locksmith in Springfield providing fast lockout and security services"
                 fetchpriority="high"
                 loading="eager"
@@ -701,7 +269,7 @@
             </div>
             <div class="about-image">
               <img
-                src="images/emergency-house-lockout-springfield.webp"
+                src="/images/emergency-house-lockout-springfield.webp"
                 alt="Emergency house lockout service in Springfield by 24/7 locksmith"
               />
             </div>
@@ -758,7 +326,7 @@
             </div>
             <div class="about-image">
               <img
-                src="images/emergency-car-lockout-locksmith-springfield.webp"
+                src="/images/emergency-car-lockout-locksmith-springfield.webp"
                 alt="Emergency car lockout service in Springfield provided by professional locksmith"
               />
             </div>
@@ -990,6 +558,38 @@
             capabilities, and professional expertise to solve any lock and key
             problem.
           </p>
+        </div>
+      </section>
+      <section
+        style="
+          background: #f5f5f5;
+          padding: 30px;
+          margin: 40px 0;
+          border-radius: 8px;
+        "
+      >
+        <div class="container">
+          <h2>Prevent Future Emergencies</h2>
+          <p>
+            While we're always here 24/7 for emergencies, learn how to avoid
+            lockouts:
+          </p>
+          <ul style="list-style: none; padding: 0">
+            <li style="margin: 10px 0">
+              🔑 <a href="residential-locksmith.html">Get Spare Keys Made</a> -
+              Residential lock rekeying and spare key services
+            </li>
+            <li style="margin: 10px 0">
+              🚗
+              <a href="automotive-locksmith.html">Automotive Key Duplication</a>
+              - Never get locked out of your car again
+            </li>
+            <li style="margin: 10px 0">
+              🏢
+              <a href="commercial-locksmith.html">Business Access Control</a> -
+              Modern keyless entry systems for businesses
+            </li>
+          </ul>
         </div>
       </section>
     </main>

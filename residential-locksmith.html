@@ -22,508 +22,71 @@
       href="https://locksmiths-springfield.com/residential-locksmith.html"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <!-- Add this to the <head> section of every page -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@graph": [
+        "@type": "Locksmith",
+        "name": "Locksmith Springfield",
+        "image": "https://locksmiths-springfield.com/images/logo.webp",
+        "@id": "https://locksmiths-springfield.com",
+        "url": "https://locksmiths-springfield.com",
+        "telephone": "+1-413-224-9549",
+        "priceRange": "$$",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "",
+          "addressLocality": "Springfield",
+          "addressRegion": "MA",
+          "postalCode": "01103",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 42.1015,
+          "longitude": -72.5898
+        },
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "00:00",
+          "closes": "23:59"
+        },
+        "sameAs": [
+          "https://www.facebook.com/yourpage",
+          "https://www.yelp.com/yourpage"
+        ],
+        "areaServed": [
           {
-            "@type": "Service",
-            "@id": "https://locksmiths-springfield.com/residential-locksmith#service",
-            "serviceType": "Residential Locksmith Service",
-            "name": "Residential Locksmith Springfield MA",
-            "description": "Professional residential locksmith service in Springfield MA. Home lockouts, lock rekeying, deadbolt installation, smart locks, master key systems, and complete home security solutions available 24/7.",
-            "url": "https://locksmiths-springfield.com/residential-locksmith",
-            "provider": {
-              "@type": "Locksmith",
-              "@id": "https://locksmiths-springfield.com/#locksmith",
-              "name": "Locksmith Springfield",
-              "telephone": "+1-413-224-9549",
-              "email": "info@locksmiths-springfield.com",
-              "url": "https://locksmiths-springfield.com",
-              "logo": {
-                "@type": "ImageObject",
-                "url": "https://locksmiths-springfield.com/images/logo.webp",
-                "width": 150,
-                "height": 150
-              },
-              "image": "https://locksmiths-springfield.com/images/locksmith-springfield-24-7-emergency.webp",
-              "address": {
-                "@type": "PostalAddress",
-                "addressLocality": "Springfield",
-                "addressRegion": "MA",
-                "postalCode": "01101",
-                "addressCountry": "US"
-              },
-              "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": "42.1015",
-                "longitude": "-72.5898"
-              },
-              "priceRange": "$$",
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "4.9",
-                "reviewCount": "500",
-                "bestRating": "5",
-                "worstRating": "1"
-              }
-            },
-            "areaServed": [
-              {
-                "@type": "City",
-                "name": "Springfield",
-                "containsPlace": {
-                  "@type": "State",
-                  "name": "Massachusetts"
-                }
-              },
-              {
-                "@type": "City",
-                "name": "Agawam",
-                "containsPlace": {
-                  "@type": "State",
-                  "name": "Massachusetts"
-                }
-              },
-              {
-                "@type": "City",
-                "name": "Longmeadow",
-                "containsPlace": {
-                  "@type": "State",
-                  "name": "Massachusetts"
-                }
-              },
-              {
-                "@type": "City",
-                "name": "Westfield",
-                "containsPlace": {
-                  "@type": "State",
-                  "name": "Massachusetts"
-                }
-              },
-              {
-                "@type": "City",
-                "name": "Feeding Hills",
-                "containsPlace": {
-                  "@type": "State",
-                  "name": "Massachusetts"
-                }
-              },
-              {
-                "@type": "City",
-                "name": "West Springfield",
-                "containsPlace": {
-                  "@type": "State",
-                  "name": "Massachusetts"
-                }
-              },
-              {
-                "@type": "City",
-                "name": "Chicopee",
-                "containsPlace": {
-                  "@type": "State",
-                  "name": "Massachusetts"
-                }
-              }
-            ],
-            "offers": {
-              "@type": "AggregateOffer",
-              "priceCurrency": "USD",
-              "lowPrice": "60.00",
-              "highPrice": "400.00",
-              "offerCount": "12",
-              "offers": [
-                {
-                  "@type": "Offer",
-                  "name": "Home Lockout Service",
-                  "description": "Emergency home lockout service with non-destructive entry techniques available 24/7",
-                  "price": "85.00",
-                  "priceCurrency": "USD",
-                  "availability": "https://schema.org/InStock",
-                  "url": "https://locksmiths-springfield.com/residential-locksmith#home-lockout"
-                },
-                {
-                  "@type": "Offer",
-                  "name": "Lock Rekeying Service",
-                  "description": "Professional lock rekeying for entire home - change internal mechanisms so old keys no longer work",
-                  "priceSpecification": {
-                    "@type": "PriceSpecification",
-                    "minPrice": "60.00",
-                    "maxPrice": "150.00",
-                    "priceCurrency": "USD"
-                  },
-                  "availability": "https://schema.org/InStock",
-                  "url": "https://locksmiths-springfield.com/residential-locksmith#lock-rekeying"
-                },
-                {
-                  "@type": "Offer",
-                  "name": "Deadbolt Installation",
-                  "description": "Commercial-grade deadbolt installation with reinforced strike plates for maximum home security",
-                  "priceSpecification": {
-                    "@type": "PriceSpecification",
-                    "minPrice": "120.00",
-                    "maxPrice": "250.00",
-                    "priceCurrency": "USD"
-                  },
-                  "availability": "https://schema.org/InStock",
-                  "url": "https://locksmiths-springfield.com/residential-locksmith#deadbolt-installation"
-                },
-                {
-                  "@type": "Offer",
-                  "name": "Smart Lock Installation",
-                  "description": "Smart lock installation and programming with smartphone control and home automation integration",
-                  "priceSpecification": {
-                    "@type": "PriceSpecification",
-                    "minPrice": "200.00",
-                    "maxPrice": "400.00",
-                    "priceCurrency": "USD"
-                  },
-                  "availability": "https://schema.org/InStock",
-                  "url": "https://locksmiths-springfield.com/residential-locksmith#smart-lock"
-                },
-                {
-                  "@type": "Offer",
-                  "name": "Master Key System",
-                  "description": "Complete master key system design and installation for homes with multiple access levels",
-                  "priceSpecification": {
-                    "@type": "PriceSpecification",
-                    "minPrice": "200.00",
-                    "maxPrice": "500.00",
-                    "priceCurrency": "USD"
-                  },
-                  "availability": "https://schema.org/InStock",
-                  "url": "https://locksmiths-springfield.com/residential-locksmith#master-key"
-                },
-                {
-                  "@type": "Offer",
-                  "name": "High-Security Lock Installation",
-                  "description": "High-security residential lock installation with pick-resistant and drill-resistant features",
-                  "priceSpecification": {
-                    "@type": "PriceSpecification",
-                    "minPrice": "180.00",
-                    "maxPrice": "350.00",
-                    "priceCurrency": "USD"
-                  },
-                  "availability": "https://schema.org/InStock",
-                  "url": "https://locksmiths-springfield.com/residential-locksmith#high-security-locks"
-                },
-                {
-                  "@type": "Offer",
-                  "name": "Lock Repair Service",
-                  "description": "Professional lock repair for sticky, broken, or malfunctioning residential locks",
-                  "priceSpecification": {
-                    "@type": "PriceSpecification",
-                    "minPrice": "75.00",
-                    "maxPrice": "150.00",
-                    "priceCurrency": "USD"
-                  },
-                  "availability": "https://schema.org/InStock",
-                  "url": "https://locksmiths-springfield.com/residential-locksmith#lock-repair"
-                },
-                {
-                  "@type": "Offer",
-                  "name": "Key Duplication",
-                  "description": "Professional key duplication service for house keys, deadbolts, and specialty keys",
-                  "priceSpecification": {
-                    "@type": "PriceSpecification",
-                    "minPrice": "5.00",
-                    "maxPrice": "25.00",
-                    "priceCurrency": "USD"
-                  },
-                  "availability": "https://schema.org/InStock",
-                  "url": "https://locksmiths-springfield.com/residential-locksmith#key-duplication"
-                },
-                {
-                  "@type": "Offer",
-                  "name": "Window Lock Installation",
-                  "description": "Window lock installation for ground-floor and accessible windows to prevent forced entry",
-                  "priceSpecification": {
-                    "@type": "PriceSpecification",
-                    "minPrice": "40.00",
-                    "maxPrice": "100.00",
-                    "priceCurrency": "USD"
-                  },
-                  "availability": "https://schema.org/InStock",
-                  "url": "https://locksmiths-springfield.com/residential-locksmith#window-locks"
-                },
-                {
-                  "@type": "Offer",
-                  "name": "Door Hardware Installation",
-                  "description": "Complete door hardware installation including handles, knobs, hinges, and closers",
-                  "priceSpecification": {
-                    "@type": "PriceSpecification",
-                    "minPrice": "100.00",
-                    "maxPrice": "300.00",
-                    "priceCurrency": "USD"
-                  },
-                  "availability": "https://schema.org/InStock",
-                  "url": "https://locksmiths-springfield.com/residential-locksmith#door-hardware"
-                },
-                {
-                  "@type": "Offer",
-                  "name": "Home Security Consultation",
-                  "description": "Comprehensive home security assessment with recommendations for improving residential security",
-                  "price": "75.00",
-                  "priceCurrency": "USD",
-                  "availability": "https://schema.org/InStock",
-                  "url": "https://locksmiths-springfield.com/residential-locksmith#security-consultation"
-                },
-                {
-                  "@type": "Offer",
-                  "name": "Safe Installation",
-                  "description": "Residential safe installation and service for protecting valuables and important documents",
-                  "priceSpecification": {
-                    "@type": "PriceSpecification",
-                    "minPrice": "150.00",
-                    "maxPrice": "500.00",
-                    "priceCurrency": "USD"
-                  },
-                  "availability": "https://schema.org/InStock",
-                  "url": "https://locksmiths-springfield.com/residential-locksmith#safe-installation"
-                }
-              ]
-            },
-            "serviceOutput": [
-              "Home Lockout Service",
-              "Lock Rekeying",
-              "Deadbolt Installation",
-              "Smart Lock Installation",
-              "Master Key Systems",
-              "High-Security Locks",
-              "Lock Repair",
-              "Key Duplication",
-              "Window Lock Installation",
-              "Door Hardware Installation",
-              "Mailbox Lock Service",
-              "Cabinet Lock Installation",
-              "Home Security Consultation",
-              "Safe Installation and Service"
-            ],
-            "category": "Residential Locksmith",
-            "availableChannel": {
-              "@type": "ServiceChannel",
-              "serviceUrl": "https://locksmiths-springfield.com/residential-locksmith",
-              "servicePhone": {
-                "@type": "ContactPoint",
-                "telephone": "+1-413-224-9549",
-                "contactType": "Residential Locksmith Service",
-                "availableLanguage": "English",
-                "hoursAvailable": {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": [
-                    "Monday",
-                    "Tuesday",
-                    "Wednesday",
-                    "Thursday",
-                    "Friday",
-                    "Saturday",
-                    "Sunday"
-                  ],
-                  "opens": "00:00",
-                  "closes": "23:59"
-                }
-              }
-            },
-            "hoursAvailable": {
-              "@type": "OpeningHoursSpecification",
-              "dayOfWeek": [
-                "Monday",
-                "Tuesday",
-                "Wednesday",
-                "Thursday",
-                "Friday",
-                "Saturday",
-                "Sunday"
-              ],
-              "opens": "00:00",
-              "closes": "23:59"
-            }
+            "@type": "City",
+            "name": "Springfield"
           },
           {
-            "@type": "WebPage",
-            "@id": "https://locksmiths-springfield.com/residential-locksmith#webpage",
-            "url": "https://locksmiths-springfield.com/residential-locksmith",
-            "name": "Residential Locksmith Springfield MA | Home Locksmith Near Me | 24/7 Service",
-            "description": "Trusted residential locksmith in Springfield MA. 24/7 home lockouts, lock rekeying, deadbolt installation, smart locks. Fast service to all areas.",
-            "isPartOf": {
-              "@id": "https://locksmiths-springfield.com/#website"
-            },
-            "about": {
-              "@id": "https://locksmiths-springfield.com/residential-locksmith#service"
-            },
-            "primaryImageOfPage": {
-              "@type": "ImageObject",
-              "url": "https://locksmiths-springfield.com/images/locksmith-springfield-24-7-emergency.webp"
-            },
-            "breadcrumb": {
-              "@id": "https://locksmiths-springfield.com/residential-locksmith#breadcrumb"
-            }
+            "@type": "City",
+            "name": "Agawam"
           },
           {
-            "@type": "BreadcrumbList",
-            "@id": "https://locksmiths-springfield.com/residential-locksmith#breadcrumb",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://locksmiths-springfield.com"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Residential Locksmith",
-                "item": "https://locksmiths-springfield.com/residential-locksmith"
-              }
-            ]
+            "@type": "City",
+            "name": "Longmeadow"
           },
           {
-            "@type": "FAQPage",
-            "@id": "https://locksmiths-springfield.com/residential-locksmith#faq",
-            "mainEntity": [
-              {
-                "@type": "Question",
-                "name": "How much does it cost to rekey a house?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Lock rekeying costs typically range from $60-150 for an entire house depending on the number of locks. Individual lock rekeying costs $20-35 per lock. Rekeying is significantly more affordable than replacing all locks, providing fresh security by changing internal mechanisms so old keys no longer work. Most homes can be rekeyed in a single service visit."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "How much does deadbolt installation cost?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Deadbolt installation costs range from $120-250 per door including the deadbolt hardware and professional installation. Price varies based on door material, deadbolt grade (Grade 1 is highest security), and whether reinforced strike plates are added. We install commercial-grade deadbolts that provide superior security compared to basic doorknob locks."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Should I rekey or replace locks when moving into a new home?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Rekeying is recommended when moving into a new home in Springfield MA. It's more affordable than replacement and provides fresh security since previous owners, contractors, and real estate agents may have had keys. We rekey all exterior door locks during a single visit so only your new keys work. Replace locks only if they're damaged or you want to upgrade security."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "What are smart locks and should I install them?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Smart locks are electronic locks offering keyless entry via smartphone, touchpad codes, or key fobs. Benefits include: no keys needed, temporary access codes for guests/service providers, remote locking/unlocking, activity logs, and home automation integration. Smart locks cost $200-400 installed and are ideal for Springfield homeowners wanting modern convenience with strong security."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "How long does home lockout service take?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "We respond to home lockouts in Springfield within 15-30 minutes. Once on-site, most home lockouts are resolved in 5-15 minutes using professional non-destructive entry techniques. Our technicians gain entry while preserving your locks and doors, then can immediately provide spare keys or rekey locks if needed."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "What is a master key system for homes?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "A master key system allows different keys to access specific locks while one master key opens all locks. For homes, this means family members have keys to certain areas while homeowners have master access. It's useful for larger homes, multi-generational households, or rental properties. Master key systems cost $200-500 depending on complexity."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Do you provide emergency residential locksmith service 24/7?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Yes, we provide 24/7 emergency residential locksmith service throughout Springfield, Agawam, Longmeadow, Westfield, West Springfield, Chicopee, and Feeding Hills. Emergency service includes home lockouts, broken lock repairs, lost key replacement, and urgent security issues. We respond day or night, weekends, and holidays."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "How can I improve my home security?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Improve home security by: installing Grade 1 deadbolts on all exterior doors, rekeying locks regularly, adding window locks on ground-floor windows, installing smart locks with activity monitoring, upgrading to high-security locks with pick resistance, adding security strike plates, ensuring all doors have working locks, and scheduling a professional security consultation. We assess your Springfield home and recommend appropriate security improvements."
-                }
-              }
-            ]
-          },
-          {
-            "@type": "HowTo",
-            "@id": "https://locksmiths-springfield.com/residential-locksmith#howto-rekey",
-            "name": "When to Rekey Your Home Locks",
-            "description": "Understanding when you should rekey the locks in your Springfield MA home",
-            "step": [
-              {
-                "@type": "HowToStep",
-                "position": 1,
-                "name": "After Buying a Home",
-                "text": "Always rekey locks immediately after purchasing a home. Previous owners, contractors, inspectors, and agents may have keys."
-              },
-              {
-                "@type": "HowToStep",
-                "position": 2,
-                "name": "After Losing Keys",
-                "text": "If keys are lost or stolen, rekey locks to prevent unauthorized access to your home."
-              },
-              {
-                "@type": "HowToStep",
-                "position": 3,
-                "name": "After Roommate Changes",
-                "text": "When roommates move out or household members change, rekey for security control."
-              },
-              {
-                "@type": "HowToStep",
-                "position": 4,
-                "name": "After Break-in Attempts",
-                "text": "Rekey locks if your home experiences a break-in attempt or security breach."
-              },
-              {
-                "@type": "HowToStep",
-                "position": 5,
-                "name": "Regular Maintenance",
-                "text": "Consider rekeying every few years as part of regular home security maintenance."
-              }
-            ]
-          },
-          {
-            "@type": "HowTo",
-            "@id": "https://locksmiths-springfield.com/residential-locksmith#howto-lockout",
-            "name": "What to Do During a Home Lockout",
-            "description": "Steps to take when locked out of your Springfield MA home",
-            "step": [
-              {
-                "@type": "HowToStep",
-                "position": 1,
-                "name": "Check All Entry Points",
-                "text": "Verify all doors and accessible windows are locked. Check for any unlocked entry points."
-              },
-              {
-                "@type": "HowToStep",
-                "position": 2,
-                "name": "Call Professional Locksmith",
-                "text": "Contact Locksmith Springfield at 555-000-0000. We respond within 15-30 minutes to home lockouts."
-              },
-              {
-                "@type": "HowToStep",
-                "position": 3,
-                "name": "Avoid DIY Entry Attempts",
-                "text": "Don't try to force doors or break windows. This causes expensive damage and potential injury."
-              },
-              {
-                "@type": "HowToStep",
-                "position": 4,
-                "name": "Wait Safely",
-                "text": "If weather is poor, wait in your car or at a neighbor's home. Our technician will call when arriving."
-              },
-              {
-                "@type": "HowToStep",
-                "position": 5,
-                "name": "Consider Spare Key Solutions",
-                "text": "After regaining entry, discuss spare key options or lock rekeying to prevent future lockouts."
-              }
-            ]
+            "@type": "City",
+            "name": "Westfield"
           }
-        ]
+        ],
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "5",
+          "reviewCount": "3"
+        }
       }
     </script>
   </head>
@@ -533,7 +96,7 @@
       <nav class="navbar">
         <div class="logo">
           <a href="/"
-            ><img src="/images/logo.webp" alt="Locksmith Springfield Logo"
+            ><img src="/images/logo.webp" alt="Locksmith Springfield MA - 24/7 Emergency Lock Services"
           /></a>
         </div>
         <ul class="nav-menu">
@@ -571,12 +134,31 @@
     <!-- Breadcrumbs Navigation -->
     <nav class="breadcrumbs" aria-label="Breadcrumb">
       <div class="breadcrumbs-container">
-        <ol class="breadcrumbs-list" itemscope itemtype="https://schema.org/BreadcrumbList">
+        <ol
+          class="breadcrumbs-list"
+          itemscope
+          itemtype="https://schema.org/BreadcrumbList"
+        >
           <!-- Home -->
-          <li class="breadcrumbs-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <li
+            class="breadcrumbs-item"
+            itemprop="itemListElement"
+            itemscope
+            itemtype="https://schema.org/ListItem"
+          >
             <a href="index.html" class="breadcrumbs-link" itemprop="item">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
+                />
               </svg>
               <span itemprop="name">Home</span>
             </a>
@@ -585,8 +167,18 @@
           </li>
 
           <!-- Current Page -->
-          <li class="breadcrumbs-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-            <span class="breadcrumbs-current" itemprop="name" aria-current="page">Residential Locksmith</span>
+          <li
+            class="breadcrumbs-item"
+            itemprop="itemListElement"
+            itemscope
+            itemtype="https://schema.org/ListItem"
+          >
+            <span
+              class="breadcrumbs-current"
+              itemprop="name"
+              aria-current="page"
+              >Residential Locksmith</span
+            >
             <meta itemprop="position" content="2" />
           </li>
         </ol>
@@ -1138,6 +730,32 @@
             use new locks or systems. We want you completely satisfied with both
             the service and the results.
           </p>
+        </div>
+      </section>
+      <section
+        style="
+          background: #f5f5f5;
+          padding: 30px;
+          margin: 40px 0;
+          border-radius: 8px;
+        "
+      >
+        <div class="container">
+          <h2>Complete Locksmith Solutions</h2>
+          <ul style="list-style: none; padding: 0">
+            <li style="margin: 10px 0">
+              🚗 <a href="automotive-locksmith.html">Automotive Locksmith</a> -
+              Don't forget to secure your vehicles too
+            </li>
+            <li style="margin: 10px 0">
+              🏢 <a href="commercial-locksmith.html">Commercial Locksmith</a> -
+              Do you own a home-based business? We can help
+            </li>
+            <li style="margin: 10px 0">
+              ⚡ <a href="emergency-locksmith.html">Emergency Locksmith</a> -
+              Locked out? Get immediate help
+            </li>
+          </ul>
         </div>
       </section>
     </main>

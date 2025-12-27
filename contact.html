@@ -21,363 +21,71 @@
       href="https://locksmiths-springfield.com/contact.html/"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <!-- Add this to the <head> section of every page -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@graph": [
+        "@type": "Locksmith",
+        "name": "Locksmith Springfield",
+        "image": "https://locksmiths-springfield.com/images/logo.webp",
+        "@id": "https://locksmiths-springfield.com",
+        "url": "https://locksmiths-springfield.com",
+        "telephone": "+1-413-224-9549",
+        "priceRange": "$$",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "",
+          "addressLocality": "Springfield",
+          "addressRegion": "MA",
+          "postalCode": "01103",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 42.1015,
+          "longitude": -72.5898
+        },
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "00:00",
+          "closes": "23:59"
+        },
+        "sameAs": [
+          "https://www.facebook.com/yourpage",
+          "https://www.yelp.com/yourpage"
+        ],
+        "areaServed": [
           {
-            "@type": "ContactPage",
-            "@id": "https://locksmiths-springfield.com/contact-us#contactpage",
-            "url": "https://locksmiths-springfield.com/contact-us",
-            "name": "Contact Locksmith Springfield MA | 24/7 Emergency Service Available",
-            "description": "Contact Locksmith Springfield for fast 24/7 service. Call, text, or request a quote online. Emergency locksmith near me serving Springfield, Agawam, Longmeadow, Westfield & nearby areas.",
-            "isPartOf": {
-              "@id": "https://locksmiths-springfield.com/#website"
-            },
-            "mainEntity": {
-              "@id": "https://locksmiths-springfield.com/#locksmith"
-            },
-            "breadcrumb": {
-              "@id": "https://locksmiths-springfield.com/contact-us#breadcrumb"
-            }
+            "@type": "City",
+            "name": "Springfield"
           },
           {
-            "@type": "Locksmith",
-            "@id": "https://locksmiths-springfield.com/#locksmith",
-            "name": "Locksmith Springfield",
-            "alternateName": "Springfield Locksmith",
-            "url": "https://locksmiths-springfield.com",
-            "logo": {
-              "@type": "ImageObject",
-              "url": "https://locksmiths-springfield.com/images/logo.webp",
-              "width": 150,
-              "height": 150
-            },
-            "image": "https://locksmiths-springfield.com/images/locksmith-springfield-24-7-emergency.webp",
-            "description": "Professional 24/7 locksmith service in Springfield MA and surrounding areas. Emergency lockouts, residential, commercial, and automotive locksmith services.",
-            "telephone": "+1-413-224-9549",
-            "email": "info@locksmiths-springfield.com",
-            "priceRange": "$$",
-            "address": {
-              "@type": "PostalAddress",
-              "addressLocality": "Springfield",
-              "addressRegion": "MA",
-              "postalCode": "01101",
-              "addressCountry": "US"
-            },
-            "geo": {
-              "@type": "GeoCoordinates",
-              "latitude": "42.1015",
-              "longitude": "-72.5898"
-            },
-            "openingHoursSpecification": [
-              {
-                "@type": "OpeningHoursSpecification",
-                "dayOfWeek": [
-                  "Monday",
-                  "Tuesday",
-                  "Wednesday",
-                  "Thursday",
-                  "Friday",
-                  "Saturday",
-                  "Sunday"
-                ],
-                "opens": "00:00",
-                "closes": "23:59",
-                "description": "24/7 Emergency Service"
-              }
-            ],
-            "contactPoint": [
-              {
-                "@type": "ContactPoint",
-                "telephone": "+1-413-224-9549",
-                "contactType": "Customer Service",
-                "areaServed": ["US", "MA"],
-                "availableLanguage": ["English"],
-                "email": "info@locksmiths-springfield.com",
-                "hoursAvailable": {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": [
-                    "Monday",
-                    "Tuesday",
-                    "Wednesday",
-                    "Thursday",
-                    "Friday",
-                    "Saturday",
-                    "Sunday"
-                  ],
-                  "opens": "00:00",
-                  "closes": "23:59"
-                }
-              },
-              {
-                "@type": "ContactPoint",
-                "telephone": "+1-413-224-9549",
-                "contactType": "Emergency Service",
-                "areaServed": [
-                  "Springfield",
-                  "Agawam",
-                  "Longmeadow",
-                  "Westfield",
-                  "Feeding Hills",
-                  "West Springfield",
-                  "Chicopee"
-                ],
-                "availableLanguage": ["English"],
-                "hoursAvailable": {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": [
-                    "Monday",
-                    "Tuesday",
-                    "Wednesday",
-                    "Thursday",
-                    "Friday",
-                    "Saturday",
-                    "Sunday"
-                  ],
-                  "opens": "00:00",
-                  "closes": "23:59"
-                },
-                "contactOption": ["TollFree", "HearingImpairedSupported"]
-              },
-              {
-                "@type": "ContactPoint",
-                "telephone": "+1-413-224-9549",
-                "contactType": "Sales",
-                "areaServed": ["US", "MA"],
-                "availableLanguage": ["English"],
-                "email": "info@locksmiths-springfield.com"
-              },
-              {
-                "@type": "ContactPoint",
-                "contactType": "Technical Support",
-                "email": "info@locksmiths-springfield.com",
-                "areaServed": ["US", "MA"],
-                "availableLanguage": ["English"]
-              }
-            ],
-            "aggregateRating": {
-              "@type": "AggregateRating",
-              "ratingValue": "4.9",
-              "reviewCount": "500",
-              "bestRating": "5",
-              "worstRating": "1"
-            },
-            "areaServed": [
-              {
-                "@type": "City",
-                "name": "Springfield",
-                "containsPlace": {
-                  "@type": "State",
-                  "name": "Massachusetts"
-                }
-              },
-              {
-                "@type": "City",
-                "name": "Agawam",
-                "containsPlace": {
-                  "@type": "State",
-                  "name": "Massachusetts"
-                }
-              },
-              {
-                "@type": "City",
-                "name": "Longmeadow",
-                "containsPlace": {
-                  "@type": "State",
-                  "name": "Massachusetts"
-                }
-              },
-              {
-                "@type": "City",
-                "name": "Westfield",
-                "containsPlace": {
-                  "@type": "State",
-                  "name": "Massachusetts"
-                }
-              },
-              {
-                "@type": "City",
-                "name": "Feeding Hills",
-                "containsPlace": {
-                  "@type": "State",
-                  "name": "Massachusetts"
-                }
-              },
-              {
-                "@type": "City",
-                "name": "West Springfield",
-                "containsPlace": {
-                  "@type": "State",
-                  "name": "Massachusetts"
-                }
-              },
-              {
-                "@type": "City",
-                "name": "Chicopee",
-                "containsPlace": {
-                  "@type": "State",
-                  "name": "Massachusetts"
-                }
-              }
-            ],
-            "paymentAccepted": "Cash, Credit Card, Debit Card, Visa, Mastercard, American Express, Discover, Apple Pay, Google Pay, Venmo, Zelle",
-            "currenciesAccepted": "USD"
+            "@type": "City",
+            "name": "Agawam"
           },
           {
-            "@type": "WebPage",
-            "@id": "https://locksmiths-springfield.com/contact-us#webpage",
-            "url": "https://locksmiths-springfield.com/contact-us",
-            "name": "Contact Us | Locksmith Springfield MA | 24/7 Emergency Service Available",
-            "description": "Contact Locksmith Springfield for fast 24/7 service. Call 555-000-0000, email info@locksmiths-springfield.com, or request a quote online. Emergency locksmith near me.",
-            "isPartOf": {
-              "@id": "https://locksmiths-springfield.com/#website"
-            },
-            "primaryImageOfPage": {
-              "@type": "ImageObject",
-              "url": "https://locksmiths-springfield.com/images/locksmith-springfield-24-7-emergency.webp"
-            },
-            "breadcrumb": {
-              "@id": "https://locksmiths-springfield.com/contact-us#breadcrumb"
-            },
-            "about": {
-              "@id": "https://locksmiths-springfield.com/#locksmith"
-            }
+            "@type": "City",
+            "name": "Longmeadow"
           },
           {
-            "@type": "BreadcrumbList",
-            "@id": "https://locksmiths-springfield.com/contact-us#breadcrumb",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://locksmiths-springfield.com"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Contact Us",
-                "item": "https://locksmiths-springfield.com/contact-us"
-              }
-            ]
-          },
-          {
-            "@type": "FAQPage",
-            "@id": "https://locksmiths-springfield.com/contact-us#faq",
-            "mainEntity": [
-              {
-                "@type": "Question",
-                "name": "What is the best way to contact Locksmith Springfield?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "For emergencies, call us immediately at 555-000-0000 for fastest response. For non-emergency inquiries, you can call during business hours, email us at info@locksmiths-springfield.com, or use our online contact form. We respond to all inquiries promptly, typically within 1-2 hours for non-emergency contact."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "How quickly will someone respond to my contact request?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Emergency phone calls receive immediate response with technician dispatch within 15-30 minutes. Non-emergency phone calls are answered during business hours. Email and contact form submissions typically receive responses within 1-2 hours during business hours, or by the next business morning for after-hours submissions."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Can I text your business number?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Yes, you can text 555-000-0000 for service requests or questions. Text messaging is available 24/7 for your convenience. Please include your name, location, and brief description of your locksmith needs. For true emergencies, calling is recommended for fastest response."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Do you answer calls 24/7?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Yes, our emergency line at 555-000-0000 is answered 24/7/365 by real locksmiths - never an answering service or voicemail. We maintain dedicated phone coverage specifically for emergency situations requiring immediate assistance any time of day or night, including weekends and holidays."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Can I request a quote online?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Yes, you can request a free quote using our online contact form. Provide details about the service needed, your location, and preferred contact method. We'll respond with pricing information typically within 1-2 hours during business hours. For immediate quotes, calling 555-000-0000 is fastest."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "What information should I provide when contacting you?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Please provide: your name, phone number, location/address in Springfield area, type of service needed (residential/commercial/automotive), nature of issue (lockout, rekeying, installation, etc.), urgency level, and preferred callback time for non-emergencies. This information helps us provide accurate quotes and efficient service."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Where is your business located?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Locksmith Springfield is a mobile locksmith service serving Springfield MA and surrounding areas. We don't have a physical storefront - instead, our technicians come directly to your location throughout Springfield, Agawam, Longmeadow, Westfield, Feeding Hills, West Springfield, and Chicopee. This mobile service model allows faster response times and more convenient service."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "How can I schedule non-emergency locksmith service?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Schedule non-emergency service by calling 555-000-0000, emailing info@locksmiths-springfield.com, or using our online contact form. We can schedule appointments at your convenience including same-day, next-day, or future dates. For businesses, we often schedule work during off-hours or weekends to minimize operational disruption."
-                }
-              }
-            ]
-          },
-          {
-            "@type": "Organization",
-            "@id": "https://locksmiths-springfield.com/#organization",
-            "name": "Locksmith Springfield",
-            "url": "https://locksmiths-springfield.com",
-            "logo": {
-              "@type": "ImageObject",
-              "url": "https://locksmiths-springfield.com/images/logo.webp",
-              "width": 150,
-              "height": 150
-            },
-            "contactPoint": {
-              "@type": "ContactPoint",
-              "telephone": "+1-413-224-9549",
-              "contactType": "Customer Service",
-              "email": "info@locksmiths-springfield.com",
-              "availableLanguage": ["English"],
-              "areaServed": ["US", "MA"]
-            }
-          },
-          {
-            "@type": "ProfessionalService",
-            "@id": "https://locksmiths-springfield.com/contact-us#professional-service",
-            "name": "Locksmith Springfield - Professional Locksmith Services",
-            "url": "https://locksmiths-springfield.com/contact-us",
-            "telephone": "+1-413-224-9549",
-            "email": "info@locksmiths-springfield.com",
-            "address": {
-              "@type": "PostalAddress",
-              "addressLocality": "Springfield",
-              "addressRegion": "MA",
-              "addressCountry": "US"
-            },
-            "priceRange": "$$",
-            "openingHours": "Mo-Su 00:00-23:59",
-            "areaServed": {
-              "@type": "GeoCircle",
-              "geoMidpoint": {
-                "@type": "GeoCoordinates",
-                "latitude": "42.1015",
-                "longitude": "-72.5898"
-              },
-              "geoRadius": "24140"
-            }
+            "@type": "City",
+            "name": "Westfield"
           }
-        ]
+        ],
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "5",
+          "reviewCount": "3"
+        }
       }
     </script>
   </head>
@@ -387,7 +95,9 @@
       <nav class="navbar">
         <div class="logo">
           <a href="/"
-            ><img src="images/logo.webp" alt="Locksmith Springfield Logo"
+            ><img
+              src="/images/logo.webp"
+              alt="Locksmith Springfield MA - 24/7 Emergency Lock Services"
           /></a>
         </div>
         <ul class="nav-menu">
@@ -614,7 +324,7 @@
             <div class="contact-image">
               <!-- Contact Image Placeholder: Replace with service van or team photo -->
               <img
-                src="images/contact-locksmith-springfield-banner.webp"
+                src="/images/contact-locksmith-springfield-banner.webp"
                 alt="Contact Locksmith Springfield for fast and reliable local locksmith services"
               />
             </div>
