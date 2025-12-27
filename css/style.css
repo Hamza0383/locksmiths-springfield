@@ -103,7 +103,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 1.5rem;
+  padding: 8px 12px;
   max-width: var(--max-width);
   margin: 0 auto;
 }
@@ -118,7 +118,7 @@ img {
 }
 
 .logo img {
-  width: 250px;
+  width: 150px;
   height: auto;
   width: auto;
 }
