@@ -1,7 +1,1 @@
-User-agent: *
-Allow: /
-Disallow: /admin/
-Disallow: /private/
-Disallow: /*.pdf$
-
-Sitemap: https://locksmiths-springfield.com/sitemap.xml
+User-agent: * Allow: / Sitemap: https://locksmiths-springfield.com/sitemap.xml
